@@ -150,16 +150,13 @@ body.dark-mode .card {
 }
 
 .skill {
-  background: linear-gradient(135deg, #1AA7EC, #007bbd);
-  color: #fff;
-  padding: 0.8rem;
-  border-radius: 12px;
-  font-size: 1rem;
+  background: #1AA7EC;
+  color: #050505;
+  padding: 0.5rem;
+  border-radius: 20px;
+  font-size: 0.9rem;
   text-align: center;
-  font-weight: 500;
-  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
-  transition: transform 0.2s ease, background 0.3s ease;
-  cursor: default;
+  width: 150px;
 }
 
 .skill:hover {
