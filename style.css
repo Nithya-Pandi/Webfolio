@@ -140,32 +140,22 @@ body.dark-mode .card {
 }
 
 /* === Skills === */
-.skill-list {
-  display: flex;
-  flex-direction: column;  
-  align-items: center;      
-  gap: 1rem;                
-  margin: 2rem auto;
-  text-align: center;
-}
 
 .skill {
-  background: #1AA7EC;
+  background: #1AA7EC;   /* blue for normal skills */
   color: #050505;
   padding: 0.5rem 1rem;
   border-radius: 20px;
   font-size: 0.9rem;
   text-align: center;
-  min-width: 150px;
+  display: inline-block;
 }
 
 .skill-category {
-  background: #ccc;     /* grey */
-  color: #000;
+  background: #888 !important;  /* grey for category headings */
+  color: #fff;
   font-weight: bold;
-  padding: 0.6rem 1.2rem;
-  border-radius: 20px;
-  min-width: 180px;     /* slightly wider */
+  width: 200px;   /* wider */
 }
 
 /* === Contact === */
