@@ -140,7 +140,7 @@ body.dark-mode .card {
 }
 
 /* === Skills === */
-.technical-skill-list {
+.skill-list {
   display: flex;
   flex-wrap: wrap;
   gap: 1rem;
@@ -148,7 +148,7 @@ body.dark-mode .card {
   margin: 2rem 0;
 }
 
-.technical-skill {
+.skill {
   background: #1AA7EC;
   color: #050505;
   padding: 0.6rem 1.2rem;
