@@ -142,21 +142,32 @@ body.dark-mode .card {
 /* === Skills === */
 .skill-list {
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  gap: 1rem;
-  margin: 2rem 0;
+  flex-direction: column;   /* Stack items vertically */
+  align-items: center;      /* Center horizontally */
+  justify-content: center;  /* Center vertically if parent has height */
+  gap: 1rem;                /* Space between items */
+  margin: 2rem auto;
+  text-align: center;
 }
 
-.skill {
+.skill,
+.skill-category {
+  display: inline-block;    /* Keeps pill-like shape */
   background: #1AA7EC;
   color: #050505;
-  padding: 0.5rem;
+  padding: 0.5rem 1rem;
   border-radius: 20px;
   font-size: 0.9rem;
   text-align: center;
-  width: 150px;
+  min-width: 150px;         /* Keeps uniform width */
 }
+
+/* Grey category headings */
+.skill-category {
+  background: #ccc;
+  font-weight: bold;
+}
+
 
 /* === Contact === */
 form {
