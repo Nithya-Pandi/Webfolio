@@ -65,6 +65,11 @@ nav {
   flex-wrap: wrap;
 }
 
+nav a {
+  font-size: 1rem;      /* or adjust to your preference, e.g., 1.1rem or 18px */
+  font-weight: bold;    /* helps the links stand out */
+}
+
 .nav-links a {
   color: #fff;
   text-decoration: none;
