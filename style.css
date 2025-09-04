@@ -145,7 +145,7 @@ body.dark-mode .card {
 .skills {
   text-align: center;
   padding-top: 2rem;
-  pading: 4rem 1 rem;
+  pading-bottom: 2rem;
 }
 
 .skill-list {
