@@ -145,12 +145,13 @@ body.dark-mode .card {
 .skills {
   text-align: center;
   padding-top: 2rem;
-  pading-bottom: 2rem;
 }
 
 .skill-list {
-  margin-top: 2rem;
-  margin-bottom: 2 rem;
+  display: flex; 
+  flex-direction: column; 
+  align-items: center; 
+  gap: 2rem; /* space between categories */
 }
 
 .skill-category {
