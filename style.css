@@ -263,15 +263,15 @@ body.dark-mode .skills {
   color: #fff;
 }
 
-/* === Dark Mode === */
-body.dark-mode .skill-category {
-  background: #333;
-  color: #fff;
+/* Light mode wrapper */
+.wrapper, main {
+  background: #fff;
 }
 
-body.dark-mode .skill {
-  background: #1AA7EC; 
-  color: #000;         
+/* Dark mode wrapper */
+body.dark-mode .wrapper,
+body.dark-mode main {
+  background: #121212;
 }
 
 /* === Responsive === */
