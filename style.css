@@ -144,7 +144,7 @@ body.dark-mode .card {
 /* === Technical Skills=== */
 .skills {
   text-align: center;
-  margin: 0 auto;
+  padding-top: 2rem;
   pading: 4rem 1 rem;
 }
 
@@ -182,7 +182,6 @@ body.dark-mode .card {
   min-width: 120px;
   text-align: center;
 }
-
 
 /* === Contact === */
 form {
