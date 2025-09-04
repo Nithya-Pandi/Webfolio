@@ -257,6 +257,23 @@ footer {
   margin: 0 6px;
 }
 
+body.dark-mode section,
+body.dark-mode .skills {
+  background: #121212;
+  color: #fff;
+}
+
+/* === Dark Mode === */
+body.dark-mode .skill-category {
+  background: #333;
+  color: #fff;
+}
+
+body.dark-mode .skill {
+  background: #1AA7EC; 
+  color: #000;         
+}
+
 /* === Responsive === */
 @media (max-width: 768px) {
   nav {
